@@ -16,3 +16,46 @@
     width: 150px;
     height: 90px;
 }
+
+.carrosel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(131, 216, 97);
+    height: 500px;
+    padding: 40px 80px;
+}
+
+.textocarrosel {
+    display: flex;
+    flex-direction: column;
+}
+
+.textocarrosel h1 {
+    margin: 0;
+}
+
+.textocarrosel h2 {
+    margin-top: 30px;
+}
+
+.logodesc {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer {
+    background-color: rgb(131, 216, 97);
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
