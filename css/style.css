@@ -5,9 +5,8 @@
     height: 100px;
     width: 100%;
     padding: 0 20px;
-    background-color: lightgrey;
     border-color: black;
-    border-style: solid;
+    border-bottom-style: solid;
     margin-bottom: 10px;
 }
 
@@ -271,4 +270,415 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+
+/* ============================= */
+/* CAIXA DE LOGIN */
+/* ============================= */
+
+.login-card {
+    border: none;
+    border-radius: 18px;
+
+    background-color: white;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+
+    overflow: hidden;
+
+    transition: all 0.3s ease;
+}
+
+
+/* Efeito ao passar o mouse */
+
+.login-card:hover {
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
+}
+
+
+/* ============================= */
+/* CABEÇALHO */
+/* ============================= */
+
+.login-card .card-header {
+    background-color: white;
+
+    border: none;
+
+    padding: 30px 25px 25px;
+}
+
+
+/* ============================= */
+/* LABELS */
+/* ============================= */
+
+.login-card label {
+    color: #245c2a;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    margin-bottom: 7px;
+}
+
+
+/* ============================= */
+/* CAMPOS */
+/* ============================= */
+
+.login-card .form-control {
+    border: 2px solid #e0e0e0;
+
+    border-radius: 10px;
+
+    padding: 10px 12px;
+
+    font-size: 16px;
+
+    transition: all 0.2s ease;
+}
+
+
+/* Campo selecionado */
+
+.login-card .form-control:focus {
+    border-color: #83d861;
+
+    box-shadow: 0 0 0 0.2rem rgba(131, 216, 97, 0.20);
+}
+
+
+/* ============================= */
+/* BOTÃO ENTRAR */
+/* ============================= */
+
+.login-card .btn-success {
+    background-color: #83d861;
+
+    border: none;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+
+    transition: all 0.2s ease;
+}
+
+
+.login-card .btn-success:hover {
+    background-color: #5fba43;
+
+    transform: scale(1.05);
+}
+
+
+/* ============================= */
+/* ESQUECI MINHA SENHA */
+/* ============================= */
+
+.login-card a {
+    color: #5fba43;
+
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+
+.login-card a:hover {
+    color: #245c2a;
+
+    text-decoration: underline;
+}
+
+.text-center .btn-primary {
+    background-color: #83d861;
+    border: none;
+    border-radius: 10px;
+
+    padding: 10px 25px;
+
+    font-weight: bold;
+    color: white !important;
+
+    transition: all 0.2s ease;
+}
+
+.text-center .btn-primary:hover {
+    background-color: #5fba43;
+    color: white !important;
+
+    transform: scale(1.05);
+}
+
+.text-center.mt-3 {
+    padding-bottom: 20px;
+}
+
+/* ================================= */
+/* PÁGINA DE LOGIN */
+/* ================================= */
+
+.login-pagina {
+    min-height: calc(100vh - 100px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 100px;
+
+    padding: 60px 80px;
+
+    background-color: white;
+}
+
+
+/* ================================= */
+/* APRESENTAÇÃO */
+/* ================================= */
+
+.login-apresentacao {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    position: relative;
+    border: black;
+    border-style: solid;
+    border-radius: 100px;
+}
+
+
+.texto-login h1 {
+    font-size: 48px;
+
+    line-height: 1.15;
+
+    color: #245c2a;
+
+    margin-bottom: 25px;
+}
+
+
+.texto-login p {
+    font-size: 20px;
+
+    line-height: 1.5;
+
+    color: #555;
+}
+
+
+/* Logo */
+
+.logo-login {
+    width: 230px;
+    height: 230px;
+
+    object-fit: contain;
+
+    margin-top: 30px;
+}
+
+
+/* ================================= */
+/* ÁREA DO LOGIN */
+/* ================================= */
+
+.login-area {
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+/* ================================= */
+/* CARD DE LOGIN */
+/* ================================= */
+
+.login-card {
+    width: 100%;
+
+    border: none;
+
+    border-radius: 18px;
+
+    background-color: white;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+
+    overflow: hidden;
+
+    transition: all 0.3s ease;
+}
+
+
+.login-card:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+
+/* Cabeçalho */
+
+.login-card .card-header {
+
+    background-color: white;
+
+    border: none;
+
+    padding: 35px;
+}
+
+
+/* Título */
+
+.login-card h2 {
+
+    color: #245c2a;
+
+    font-size: 30px;
+
+    font-weight: bold;
+
+    margin-bottom: 30px;
+}
+
+
+/* ================================= */
+/* LABELS */
+/* ================================= */
+
+.login-card label {
+
+    display: block;
+
+    text-align: left;
+
+    color: #245c2a;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    margin-bottom: 7px;
+}
+
+
+/* ================================= */
+/* INPUTS */
+/* ================================= */
+
+.login-card .form-control {
+
+    border: 2px solid #e0e0e0;
+
+    border-radius: 10px;
+
+    padding: 11px 12px;
+
+    font-size: 16px;
+
+    transition: all 0.2s ease;
+}
+
+
+.login-card .form-control:focus {
+
+    border-color: #83d861;
+
+    box-shadow: 0 0 0 0.2rem rgba(131, 216, 97, 0.20);
+}
+
+
+/* ================================= */
+/* LINK ESQUECI SENHA */
+/* ================================= */
+
+.login-card a {
+
+    color: #5fba43;
+
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+
+.login-card a:hover {
+
+    color: #245c2a;
+
+    text-decoration: underline;
+}
+
+
+/* ================================= */
+/* BOTÃO ENTRAR */
+/* ================================= */
+
+.login-card .btn-success {
+
+    background-color: #83d861;
+
+    border: none;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+
+    padding: 9px 20px;
+
+    transition: all 0.2s ease;
+}
+
+
+.login-card .btn-success:hover {
+
+    background-color: #5fba43;
+
+    transform: scale(1.05);
+}
+
+
+/* ================================= */
+/* CRIAR CONTA */
+/* ================================= */
+
+.criar-conta {
+
+    margin-top: 20px;
+}
+
+
+.criar-conta .btn-primary {
+
+    background-color: #83d861;
+
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 10px 30px;
+
+    font-weight: bold;
+
+    color: white !important;
+
+    transition: all 0.2s ease;
+}
+
+
+.criar-conta .btn-primary:hover {
+
+    background-color: #5fba43;
+
+    transform: scale(1.05);
 }
