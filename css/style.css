@@ -272,10 +272,6 @@ footer {
     margin-top: 20px;
 }
 
-/* ============================= */
-/* CAIXA DE LOGIN */
-/* ============================= */
-
 .login-card {
     border: none;
     border-radius: 18px;
@@ -289,17 +285,9 @@ footer {
     transition: all 0.3s ease;
 }
 
-
-/* Efeito ao passar o mouse */
-
 .login-card:hover {
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
 }
-
-
-/* ============================= */
-/* CABEÇALHO */
-/* ============================= */
 
 .login-card .card-header {
     background-color: white;
@@ -309,11 +297,6 @@ footer {
     padding: 30px 25px 25px;
 }
 
-
-/* ============================= */
-/* LABELS */
-/* ============================= */
-
 .login-card label {
     color: #245c2a;
 
@@ -322,11 +305,6 @@ footer {
 
     margin-bottom: 7px;
 }
-
-
-/* ============================= */
-/* CAMPOS */
-/* ============================= */
 
 .login-card .form-control {
     border: 2px solid #e0e0e0;
@@ -340,19 +318,11 @@ footer {
     transition: all 0.2s ease;
 }
 
-
-/* Campo selecionado */
-
 .login-card .form-control:focus {
     border-color: #83d861;
 
     box-shadow: 0 0 0 0.2rem rgba(131, 216, 97, 0.20);
 }
-
-
-/* ============================= */
-/* BOTÃO ENTRAR */
-/* ============================= */
 
 .login-card .btn-success {
     background-color: #83d861;
@@ -372,11 +342,6 @@ footer {
 
     transform: scale(1.05);
 }
-
-
-/* ============================= */
-/* ESQUECI MINHA SENHA */
-/* ============================= */
 
 .login-card a {
     color: #5fba43;
@@ -417,10 +382,6 @@ footer {
     padding-bottom: 20px;
 }
 
-/* ================================= */
-/* PÁGINA DE LOGIN */
-/* ================================= */
-
 .login-pagina {
     min-height: calc(100vh - 100px);
 
@@ -435,22 +396,21 @@ footer {
     background-color: white;
 }
 
-
-/* ================================= */
-/* APRESENTAÇÃO */
-/* ================================= */
-
 .login-apresentacao {
-    width: 50%;
+    width: 55%;
+    min-height: 520px;
+
     display: flex;
     flex-direction: column;
-
     justify-content: center;
 
     position: relative;
-    border: black;
-    border-style: solid;
-    border-radius: 100px;
+
+    border: 3px solid black;
+    border-radius: 60px;
+
+    padding: 40px 50px;
+    box-sizing: border-box;
 }
 
 
@@ -473,9 +433,6 @@ footer {
     color: #555;
 }
 
-
-/* Logo */
-
 .logo-login {
     width: 230px;
     height: 230px;
@@ -485,11 +442,6 @@ footer {
     margin-top: 30px;
 }
 
-
-/* ================================= */
-/* ÁREA DO LOGIN */
-/* ================================= */
-
 .login-area {
     width: 400px;
 
@@ -498,11 +450,6 @@ footer {
 
     align-items: center;
 }
-
-
-/* ================================= */
-/* CARD DE LOGIN */
-/* ================================= */
 
 .login-card {
     width: 100%;
@@ -525,9 +472,6 @@ footer {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
 }
 
-
-/* Cabeçalho */
-
 .login-card .card-header {
 
     background-color: white;
@@ -536,9 +480,6 @@ footer {
 
     padding: 35px;
 }
-
-
-/* Título */
 
 .login-card h2 {
 
@@ -550,11 +491,6 @@ footer {
 
     margin-bottom: 30px;
 }
-
-
-/* ================================= */
-/* LABELS */
-/* ================================= */
 
 .login-card label {
 
@@ -570,11 +506,6 @@ footer {
 
     margin-bottom: 7px;
 }
-
-
-/* ================================= */
-/* INPUTS */
-/* ================================= */
 
 .login-card .form-control {
 
@@ -597,11 +528,6 @@ footer {
     box-shadow: 0 0 0 0.2rem rgba(131, 216, 97, 0.20);
 }
 
-
-/* ================================= */
-/* LINK ESQUECI SENHA */
-/* ================================= */
-
 .login-card a {
 
     color: #5fba43;
@@ -618,11 +544,6 @@ footer {
 
     text-decoration: underline;
 }
-
-
-/* ================================= */
-/* BOTÃO ENTRAR */
-/* ================================= */
 
 .login-card .btn-success {
 
@@ -646,11 +567,6 @@ footer {
 
     transform: scale(1.05);
 }
-
-
-/* ================================= */
-/* CRIAR CONTA */
-/* ================================= */
 
 .criar-conta {
 
@@ -681,4 +597,35 @@ footer {
     background-color: #5fba43;
 
     transform: scale(1.05);
+}
+
+.cadastro-empresa {
+    margin-top: 15px;
+}
+
+.cadastro-empresa .btn {
+    border: 2px solid #83d861;
+    border-radius: 10px;
+    padding: 9px 20px;
+
+    font-weight: bold;
+    color: #5fba43;
+    background-color: white;
+
+    transition: all 0.2s ease;
+}
+
+.cadastro-empresa .btn:hover {
+    background-color: #83d861;
+    color: white;
+
+    transform: scale(1.05);
+}
+
+.login-card .btn-success {
+    color: white !important;
+}
+
+.login-card .btn-success:hover {
+    color: white !important;
 }
