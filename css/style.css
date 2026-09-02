@@ -1,21 +1,25 @@
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     height: 100px;
     width: 100%;
+
     padding: 0 20px;
+
     border-color: black;
     border-bottom-style: solid;
+
     margin-bottom: 10px;
 }
 
-.navbar-nav{
+.navbar-nav {
     display: flex;
     gap: 20px;
 }
 
-.logo{
+.logo {
     width: 150px;
     height: 90px;
 }
@@ -24,61 +28,87 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     background-color: rgb(131, 216, 97);
-    height: 400px;
+
+    min-height: 400px;
+
     padding: 40px 80px;
-    margin-bottom: 10px;
+
+    margin-bottom: 30px;
+
     border-color: black;
     border-style: solid;
+    border-radius: 25px;
+
+    box-sizing: border-box;
 }
 
 .textocarrosel {
     display: flex;
     flex-direction: column;
+
+    width: 60%;
+
+    padding: 20px;
+
+    font-size: 20px;
+    color: white;
 }
 
 .textocarrosel h1 {
+    font-size: 50px;
+
+    color: white;
+
     margin: 0;
+    padding-bottom: 20px;
 }
 
 .textocarrosel h2 {
     margin-top: 30px;
 }
 
+.textocarrosel p {
+    font-size: 20px;
+    line-height: 1.6;
+
+    color: white;
+
+    margin: 0;
+}
+
 .logodesc {
     width: 300px;
     height: 300px;
+
     object-fit: contain;
+
     border-radius: 50%;
     border: 5px solid black;
-}
 
-/* ============================= */
-/* SEÇÃO ENCONTRE LUGARES */
-/* ============================= */
+    margin-right: 30px;
+}
 
 .cidades {
     background-color: white;
     padding: 70px 40px;
 }
 
-
-/* Título */
-
 .cidades h1 {
     text-align: center;
+
     font-size: 40px;
     font-weight: bold;
+
     color: #245c2a;
 
     margin-bottom: 50px;
 }
 
-
-/* Container dos cards */
-
 .cards {
     display: flex;
+
     justify-content: center;
     align-items: stretch;
 
@@ -86,11 +116,6 @@
 
     flex-wrap: wrap;
 }
-
-
-/* ============================= */
-/* CARD */
-/* ============================= */
 
 .cards .card {
     width: 300px;
@@ -107,19 +132,11 @@
     transition: all 0.3s ease;
 }
 
-
-/* Efeito ao passar o mouse */
-
 .cards .card:hover {
     transform: translateY(-10px);
 
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.20);
 }
-
-
-/* ============================= */
-/* IMAGEM */
-/* ============================= */
 
 .cards .card-img-top {
     width: 100%;
@@ -127,11 +144,6 @@
 
     object-fit: cover;
 }
-
-
-/* ============================= */
-/* TÍTULO E TEXTO */
-/* ============================= */
 
 .cards .card-title {
     font-size: 25px;
@@ -142,7 +154,6 @@
     margin-bottom: 15px;
 }
 
-
 .cards .card-text {
     font-size: 16px;
     line-height: 1.5;
@@ -150,26 +161,15 @@
     color: #555;
 }
 
-
-/* ============================= */
-/* LISTA */
-/* ============================= */
-
 .cards .list-group-item {
     border-left: none;
     border-right: none;
 
     font-size: 15px;
-
     color: #555;
 
     padding: 10px 20px;
 }
-
-
-/* ============================= */
-/* BOTÃO */
-/* ============================= */
 
 .btn-card {
     display: inline-block;
@@ -181,14 +181,12 @@
     font-weight: bold;
 
     border: none;
-
     border-radius: 10px;
 
     padding: 10px 25px;
 
     transition: all 0.2s ease;
 }
-
 
 .btn-card:hover {
     background-color: #5fba43;
@@ -198,95 +196,181 @@
     transform: scale(1.05);
 }
 
-footer {
-    background-color: rgb(131, 216, 97);
-    text-align: center;
-    padding: 20px;
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    margin-top: 100px;
-}
-
 .descricao {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(131, 216, 97);
-    height: 225px;
-    padding: 50px;
-    margin-bottom: 10px;
-    border-color: black;
-    border-style: solid;
-}
 
-.equipe {
-    text-align: center;
-    padding: 15px;
-    font-size: 20px;
-    text-decoration: none;
     background-color: white;
-    color: black;
+
+    min-height: 225px;
+
+    padding: 35px 50px;
+
+    margin-bottom: 25px;
+
     border-color: black;
     border-style: solid;
+    border-radius: 18px;
+
+    box-sizing: border-box;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+
+    transition: all 0.3s ease;
 }
 
-.textoequipe p {
-    border-color: black;
-    border-style: solid;
-    width: fit-content;
-    margin: auto;
-    padding: 20px;
-}
+.descricao:hover {
+    transform: translateY(-5px);
 
-.p1{
-    color: white;
-    font-size: 20px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
 }
 
 .textodescricao {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    width: 50%;
-    color: white;
-    font-size: 20px;}
 
-.textocarrosel h1 {
-    font-size: 50px;
-    color: white;
-    padding-bottom: 20px;
-}
+    gap: 15px;
 
-.textocarrosel{
+    width: 100%;
+
+    color: #245c2a;
+
     font-size: 20px;
-    color: white;
-    padding: 20px;
 }
 
-#map { height: 180px; }
+.textodescricao h1 {
+    font-size: 35px;
+    font-weight: bold;
+
+    color: #245c2a;
+
+    margin: 0;
+}
+
+.textodescricao p {
+    font-size: 19px;
+    line-height: 1.6;
+
+    color: #555;
+
+    margin: 0;
+
+    max-width: 1000px;
+}
+
+.equipe {
+    text-align: center;
+
+    background-color: #83d861;
+
+    padding: 45px 30px;
+
+    margin-top: 35px;
+
+    border-color: black;
+    border-style: solid;
+    border-radius: 18px;
+
+    box-sizing: border-box;
+}
+
+.textoequipe {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.textoequipe h1 {
+    font-size: 38px;
+    font-weight: bold;
+
+    color: white;
+
+    margin-bottom: 25px;
+}
+
+.textoequipe p {
+    width: fit-content;
+
+    background-color: white;
+
+    color: #555;
+
+    font-size: 19px;
+    line-height: 1.8;
+
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px;
+
+    padding: 20px 40px;
+
+    margin: 0 0 20px 0;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+}
+
+.textoequipe p1 {
+    color: white;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(131, 216, 97);
+
+    text-align: center;
+
+    padding: 20px;
+
+    font-size: 20px;
+
+    color: white;
+
+    text-decoration: none;
+
+    margin-top: 50px;
+
+    border-top: 3px solid black;
+}
+
+footer p {
+    margin: 0;
+}
+
+#map {
+    height: 180px;
+}
 
 .botaomapa {
     display: flex;
+
     justify-content: center;
+
     margin-top: 20px;
 }
 
 .login-card {
     border: none;
+
     border-radius: 18px;
 
     background-color: white;
 
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
 
     overflow: hidden;
 
     transition: all 0.3s ease;
+
+    width: 100%;
 }
 
 .login-card:hover {
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
 }
 
 .login-card .card-header {
@@ -294,10 +378,23 @@ footer {
 
     border: none;
 
-    padding: 30px 25px 25px;
+    padding: 35px;
+}
+
+.login-card h2 {
+    color: #245c2a;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    margin-bottom: 30px;
 }
 
 .login-card label {
+    display: block;
+
+    text-align: left;
+
     color: #245c2a;
 
     font-size: 16px;
@@ -311,7 +408,7 @@ footer {
 
     border-radius: 10px;
 
-    padding: 10px 12px;
+    padding: 11px 12px;
 
     font-size: 16px;
 
@@ -324,6 +421,20 @@ footer {
     box-shadow: 0 0 0 0.2rem rgba(131, 216, 97, 0.20);
 }
 
+.login-card a {
+    color: #5fba43;
+
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+.login-card a:hover {
+    color: #245c2a;
+
+    text-decoration: underline;
+}
+
 .login-card .btn-success {
     background-color: #83d861;
 
@@ -333,59 +444,26 @@ footer {
 
     font-weight: bold;
 
+    padding: 9px 20px;
+
+    color: white !important;
+
     transition: all 0.2s ease;
 }
-
 
 .login-card .btn-success:hover {
     background-color: #5fba43;
 
-    transform: scale(1.05);
-}
-
-.login-card a {
-    color: #5fba43;
-
-    text-decoration: none;
-
-    transition: 0.2s;
-}
-
-
-.login-card a:hover {
-    color: #245c2a;
-
-    text-decoration: underline;
-}
-
-.text-center .btn-primary {
-    background-color: #83d861;
-    border: none;
-    border-radius: 10px;
-
-    padding: 10px 25px;
-
-    font-weight: bold;
-    color: white !important;
-
-    transition: all 0.2s ease;
-}
-
-.text-center .btn-primary:hover {
-    background-color: #5fba43;
     color: white !important;
 
     transform: scale(1.05);
-}
-
-.text-center.mt-3 {
-    padding-bottom: 20px;
 }
 
 .login-pagina {
     min-height: calc(100vh - 100px);
 
     display: flex;
+
     align-items: center;
     justify-content: center;
 
@@ -398,21 +476,25 @@ footer {
 
 .login-apresentacao {
     width: 55%;
+
     min-height: 520px;
 
     display: flex;
+
     flex-direction: column;
+
     justify-content: center;
 
     position: relative;
 
     border: 3px solid black;
+
     border-radius: 60px;
 
     padding: 40px 50px;
+
     box-sizing: border-box;
 }
-
 
 .texto-login h1 {
     font-size: 48px;
@@ -423,7 +505,6 @@ footer {
 
     margin-bottom: 25px;
 }
-
 
 .texto-login p {
     font-size: 20px;
@@ -446,136 +527,17 @@ footer {
     width: 400px;
 
     display: flex;
+
     flex-direction: column;
 
     align-items: center;
 }
 
-.login-card {
-    width: 100%;
-
-    border: none;
-
-    border-radius: 18px;
-
-    background-color: white;
-
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
-
-    overflow: hidden;
-
-    transition: all 0.3s ease;
-}
-
-
-.login-card:hover {
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
-}
-
-.login-card .card-header {
-
-    background-color: white;
-
-    border: none;
-
-    padding: 35px;
-}
-
-.login-card h2 {
-
-    color: #245c2a;
-
-    font-size: 30px;
-
-    font-weight: bold;
-
-    margin-bottom: 30px;
-}
-
-.login-card label {
-
-    display: block;
-
-    text-align: left;
-
-    color: #245c2a;
-
-    font-size: 16px;
-
-    font-weight: bold;
-
-    margin-bottom: 7px;
-}
-
-.login-card .form-control {
-
-    border: 2px solid #e0e0e0;
-
-    border-radius: 10px;
-
-    padding: 11px 12px;
-
-    font-size: 16px;
-
-    transition: all 0.2s ease;
-}
-
-
-.login-card .form-control:focus {
-
-    border-color: #83d861;
-
-    box-shadow: 0 0 0 0.2rem rgba(131, 216, 97, 0.20);
-}
-
-.login-card a {
-
-    color: #5fba43;
-
-    text-decoration: none;
-
-    transition: 0.2s;
-}
-
-
-.login-card a:hover {
-
-    color: #245c2a;
-
-    text-decoration: underline;
-}
-
-.login-card .btn-success {
-
-    background-color: #83d861;
-
-    border: none;
-
-    border-radius: 10px;
-
-    font-weight: bold;
-
-    padding: 9px 20px;
-
-    transition: all 0.2s ease;
-}
-
-
-.login-card .btn-success:hover {
-
-    background-color: #5fba43;
-
-    transform: scale(1.05);
-}
-
 .criar-conta {
-
     margin-top: 20px;
 }
 
-
 .criar-conta .btn-primary {
-
     background-color: #83d861;
 
     border: none;
@@ -591,9 +553,7 @@ footer {
     transition: all 0.2s ease;
 }
 
-
 .criar-conta .btn-primary:hover {
-
     background-color: #5fba43;
 
     transform: scale(1.05);
@@ -605,11 +565,15 @@ footer {
 
 .cadastro-empresa .btn {
     border: 2px solid #83d861;
+
     border-radius: 10px;
+
     padding: 9px 20px;
 
     font-weight: bold;
+
     color: #5fba43;
+
     background-color: white;
 
     transition: all 0.2s ease;
@@ -617,15 +581,36 @@ footer {
 
 .cadastro-empresa .btn:hover {
     background-color: #83d861;
+
     color: white;
 
     transform: scale(1.05);
 }
 
-.login-card .btn-success {
+.text-center .btn-primary {
+    background-color: #83d861;
+
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 10px 25px;
+
+    font-weight: bold;
+
     color: white !important;
+
+    transition: all 0.2s ease;
 }
 
-.login-card .btn-success:hover {
+.text-center .btn-primary:hover {
+    background-color: #5fba43;
+
     color: white !important;
+
+    transform: scale(1.05);
+}
+
+.text-center.mt-3 {
+    padding-bottom: 20px;
 }

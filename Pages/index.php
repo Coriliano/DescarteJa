@@ -12,50 +12,15 @@
 </head>
 <body>
     
-<!---------------------- NAVBAR ------------------------------->
+<?php include '../includes/navbar.php'; ?>
 
 
-    <nav class="navbar navbar-expand-lg minha-navbar">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img class="logo" src="../img/DescarteJá horizontal.png" alt="logo-descarteja"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Início</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="mapa.html">Mapa</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="blog.html">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="sobre.html">Sobre nós</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
-<!------------------------------------------>
-
-
-
-<!------------------------------------------>
-
-
-<!---------------------- CARDs ---------------------->
 <div class="container-fluid cidades">
 
     <h1>Encontre lugares próximos</h1>
 
     <div class="cards">
 
-        <!-- CARD 1 -->
         <div class="card">
             <img src="../img/mapa.jpg" class="card-img-top" alt="Mapa">
 
@@ -78,8 +43,6 @@
             </div>
         </div>
 
-
-        <!-- CARD 2 -->
         <div class="card">
             <img src="../img/ecoponto.jpg" class="card-img-top" alt="Ecoponto">
 
@@ -102,8 +65,6 @@
             </div>
         </div>
 
-
-        <!-- CARD 3 -->
         <div class="card">
             <img src="../img/empresa.jpg" class="card-img-top" alt="Empresa">
 
@@ -130,26 +91,12 @@
 
 </div>
 
-<!------------------------------------------>
-
 
 <div class="botaomapa">
     <a href="mapa.html" class="btn btn-card">Abrir Mapa</a>
 </div>
 
+<?php include '../includes/footer.php'; ?>
 
-<!------------------------------------------>
-
-
-<!------------------- FOOTER ----------------------->
-
-
-    <footer>
-  <p>GreenTech 2026 - todos os direitos reservados</p>
-  
-  <div class="icones">
-</svg>Descarte Já</a>
-</div>
-</footer>
 </body>
 </html>

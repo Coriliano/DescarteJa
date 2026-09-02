@@ -12,40 +12,7 @@
 </head>
 <body>
     
-<!---------------------- NAVBAR ------------------------------->
-
-
-    <nav class="navbar navbar-expand-lg minha-navbar">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img class="logo" src="../img/DescarteJá horizontal.png" alt="logo-descarteja"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Início</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="mapa.html">Mapa</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="blog.html">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="sobre.html">Sobre nós</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
-<!------------------------------------------>
-
-
-<!---------------------------------- CONTAINER ---------------------->
-
+<?php include '../includes/navbar.php'; ?>
 
 <div class="container-fluid carrosel">
 
@@ -59,7 +26,7 @@
         </p>
     </div>
 
-    <img class="logodesc" src="/img/Logo DescarteJá.png" alt="logo-descarteja">
+    <img class="logodesc" src="../img/Logo DescarteJá.png" alt="logo-descarteja">
 
 </div>
 
@@ -125,29 +92,7 @@
 
 </div> 
 
-
-
-<!------------------------------------------>
-
-
-<!------------------------------------------>
-
-
-
-
-<!------------------------------------------>
-
-
-<!------------------- FOOTER ----------------------->
-
-
-    <footer>
-  <p>GreenTech 2026 - todos os direitos reservados</p>
-  
-  <div class="icones">
-</svg>Descarte Já</a>
-</div>
-</footer>
+<?php include '../includes/footer.php'; ?>
 
 </body>
 </html>

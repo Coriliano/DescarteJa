@@ -12,30 +12,7 @@
 </head>
 <body>
     
-
-<!---------------------- NAVBAR ------------------------------->
-
-
-    <nav class="navbar navbar-expand-lg minha-navbar">
-  <div class="container-fluid">
-    <a class="navbar-brand" href=""><img class="logo" src="../img/DescarteJá horizontal.png" alt="logo-descarteja"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-
-    </div>
-  </div>
-</nav>
-
-
-<!------------------------------------------>
-
-
-
-
-<!---------------------------------- CONTAINER ---------------------->
-
+<?php include '../includes/navbar.php'; ?>
 
 <div class="login-pagina">
 
@@ -126,13 +103,7 @@
 
 </div>
 
-
-<footer>
-
-    <p>GreenTech 2026 - todos os direitos reservados</p>
-
-</footer>
-
+<?php include '../includes/footer.php'; ?>
 
 </body>
 </html>
