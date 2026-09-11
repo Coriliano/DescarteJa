@@ -12,7 +12,6 @@
 </head>
 <body>
     
-<?php include '../includes/navbar.php'; ?>
 
 <div class="login-pagina">
 
@@ -72,11 +71,11 @@
 
         <div class="d-flex justify-content align-items-center gap-4">
 
-            <a href="senha.html" class="small">
+            <a href="senha.php" class="small">
                 Esqueci minha senha
             </a>
 
-            <a href="index.html" class="btn btn-success">
+            <a href="index.php" class="btn btn-success">
                 Entrar
             </a>
 
@@ -87,13 +86,13 @@
 
         
 <div class="text-center criar-conta">
-    <a href="cadastro.html" class="btn btn-primary">
+    <a href="cadastro.php" class="btn btn-primary">
         Criar conta
     </a>
 </div>
 
 <div class="text-center cadastro-empresa">
-    <a href="cadempresa.html" class="btn btn-outline-success">
+    <a href="cadempresa.php" class="btn btn-outline-success">
         Cadastrar como empresa
     </a>
 </div>
