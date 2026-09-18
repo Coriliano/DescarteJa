@@ -17,7 +17,7 @@
 
 <body>
 
-<form action="../php/cadastro_empresa.php" method="post">
+<form action="../Pages/login.php" method="post">
 
     <div class="container mt-5 mb-5">
 
@@ -31,8 +31,6 @@
 
                         <h2>Cadastro de Empresa</h2>
 
-                        <!-- DADOS DA EMPRESA -->
-
                         <h5 class="text-start mt-4 mb-3">
                             Dados da empresa
                         </h5>
@@ -42,7 +40,7 @@
                             <input type="text"
                                    name="nome"
                                    class="form-control"
-                                   required>
+                                   >
                         </div>
 
                         <div class="mb-3">
@@ -51,7 +49,7 @@
                                    name="cnpj"
                                    class="form-control"
                                    placeholder="00.000.000/0000-00"
-                                   required>
+                                   >
                         </div>
 
                         <div class="mb-3">
@@ -59,7 +57,7 @@
                             <input type="text"
                                    name="telefone"
                                    class="form-control"
-                                   required>
+                                   >
                         </div>
 
                         <div class="mb-3">
@@ -79,8 +77,6 @@
                         </div>
 
 
-                        <!-- ENDEREÇO -->
-
                         <h5 class="text-start mt-4 mb-3">
                             Endereço
                         </h5>
@@ -91,7 +87,7 @@
                                    name="cep"
                                    class="form-control"
                                    placeholder="00000-000"
-                                   required>
+                                   >
                         </div>
 
                         <div class="mb-3">
@@ -100,7 +96,7 @@
                                    name="endereco"
                                    class="form-control"
                                    placeholder="Rua, número, complemento"
-                                   required>
+                                   >
                         </div>
 
                         <div class="mb-3">
@@ -108,8 +104,7 @@
                             <input type="text"
                                    name="cidade"
                                    class="form-control"
-                                   value="Mongaguá"
-                                   required>
+                                   >
                         </div>
 
                         <div class="mb-3">
@@ -117,12 +112,8 @@
                             <input type="text"
                                    name="estado"
                                    class="form-control"
-                                   value="SP"
-                                   required>
+                                   >
                         </div>
-
-
-                        <!-- FUNCIONAMENTO -->
 
                         <h5 class="text-start mt-4 mb-3">
                             Funcionamento
@@ -136,9 +127,6 @@
                                    placeholder="Ex.: Segunda a sexta, 08:00 às 18:00">
                         </div>
 
-
-                        <!-- DADOS DE ACESSO -->
-
                         <h5 class="text-start mt-4 mb-3">
                             Dados de acesso
                         </h5>
@@ -148,7 +136,7 @@
                             <input type="email"
                                    name="email"
                                    class="form-control"
-                                   required>
+                                   >
                         </div>
 
                         <div class="mb-3">
@@ -156,7 +144,7 @@
                             <input type="password"
                                    name="senha"
                                    class="form-control"
-                                   required>
+                                   >
                         </div>
 
                         <div class="mb-3">
@@ -164,7 +152,7 @@
                             <input type="password"
                                    name="confirmar_senha"
                                    class="form-control"
-                                   required>
+                                   >
                         </div>
 
                         <button type="submit"

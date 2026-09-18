@@ -13,7 +13,7 @@
 <body>
 
 
-<form action="../php/cadastro.php" method="post">
+<form action="../Pages/login.php" method="post">
 
     <div class="container mt-5">
         <div class="row justify-content-center">
