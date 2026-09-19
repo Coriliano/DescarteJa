@@ -97,6 +97,12 @@
     </a>
 </div>
 
+<div class="text-center cadastro-empresa">
+    <a href="loginempresa.php" class="btn btn-outline-success">
+        Login como empresa
+    </a>
+</div>
+
 
     </div>
 
