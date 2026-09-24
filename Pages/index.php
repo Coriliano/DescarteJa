@@ -26,8 +26,7 @@
         <img
             src="../img/mapa.jpg"
             class="card-img-top"
-            alt="Mapa"
-        >
+            alt="Mapa">
 
         <div class="card-body">
 
@@ -62,8 +61,7 @@
 
             <a
                 href="mapa.php"
-                class="btn btn-card"
-            >
+                class="btn btn-card">
                 Encontrar local
             </a>
 
@@ -71,14 +69,12 @@
 
     </div>
 
-
     <div class="card">
 
         <img
             src="../img/ecoponto.jpg"
             class="card-img-top"
-            alt="Projeto DescarteJá"
-        >
+            alt="Projeto DescarteJá">
 
         <div class="card-body">
 
@@ -114,8 +110,7 @@
 
             <a
                 href="sobre.php"
-                class="btn btn-card"
-            >
+                class="btn btn-card">
                 Conheça o projeto
             </a>
 
@@ -123,14 +118,12 @@
 
     </div>
 
-
     <div class="card">
 
         <img
             src="../img/empresa.jpg"
             class="card-img-top"
-            alt="Blog DescarteJá"
-        >
+            alt="Blog DescarteJá">
 
         <div class="card-body">
 
@@ -165,8 +158,7 @@
 
             <a
                 href="blog/blog.php"
-                class="btn btn-card"
-            >
+                class="btn btn-card">
                 Acessar blog
             </a>
 

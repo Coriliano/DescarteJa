@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Blog - DescarteJá</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -35,8 +33,7 @@
             <input
                 type="text"
                 id="campo-pesquisa"
-                placeholder="Pesquisar artigo..."
-              >
+                placeholder="Pesquisar artigo...">
 
             <button type="button" id="botao-pesquisa">
                 Pesquisar
@@ -56,12 +53,9 @@
 
                 <img
                     src="../../img/ecoponto.jpg"
-                    alt="Descarte de lixo eletrônico"
-                >
+                    alt="Descarte de lixo eletrônico">
 
                 <div class="blog-card-conteudo">
-
-
 
                     <h2>
                         O que é lixo eletrônico?
@@ -75,7 +69,7 @@
                     <div class="blog-card-final">
 
                         <span>
-                            18/09/2026
+                            xx/xx/xxxx
                         </span>
 
                         <a href="post.php?id=1" class="btn btn-card">
@@ -92,12 +86,9 @@
 
                 <img
                     src="../../img/mapa.jpg"
-                    alt="Descarte correto de eletrônicos"
-                >
+                    alt="Descarte correto de eletrônicos">
 
                 <div class="blog-card-conteudo">
-
-
 
                     <h2>
                         Como descartar eletrônicos corretamente?
@@ -111,7 +102,7 @@
                     <div class="blog-card-final">
 
                         <span>
-                            18/09/2026
+                            xx/xx/xxxx
                         </span>
 
                         <a href="post.php?id=2" class="btn btn-card">
@@ -128,12 +119,9 @@
 
                 <img
                     src="../../img/empresa.jpg"
-                    alt="Reciclagem de eletrônicos"
-                >
+                    alt="Reciclagem de eletrônicos">
 
                 <div class="blog-card-conteudo">
-
-
 
                     <h2>
                         Por que reciclar aparelhos eletrônicos?
@@ -147,7 +135,7 @@
                     <div class="blog-card-final">
 
                         <span>
-                            18/09/2026
+                            xx/xx/xxxx
                         </span>
 
                         <a href="post.php?id=3" class="btn btn-card">
@@ -164,12 +152,9 @@
 
                 <img
                     src="../../img/ecoponto.jpg"
-                    alt="Celular antigo"
-                >
+                    alt="Celular antigo">
 
                 <div class="blog-card-conteudo">
-
-
 
                     <h2>
                         O que fazer com celulares antigos?
@@ -183,7 +168,7 @@
                     <div class="blog-card-final">
 
                         <span>
-                            18/09/2026
+                            xx/xx/xxxx
                         </span>
 
                         <a href="post.php?id=4" class="btn btn-card">

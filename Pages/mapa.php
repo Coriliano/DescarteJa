@@ -1,65 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Mapa - DescarteJá</title>
 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 
-    <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-    >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-
-    <!-- Leaflet -->
-
-    <link
-        rel="stylesheet"
-        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    >
-
-
-    <!-- Bootstrap Icons -->
-
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    >
-
-
-    <!-- CSS do projeto -->
-
-    <link
-        rel="stylesheet"
-        href="../css/style.css"
-    >
+    <link rel="stylesheet" href="../css/style.css">
 
 </head>
-
-
 <body>
-
-
-    <!-- NAVBAR -->
 
     <?php include "../includes/navbar.php"; ?>
 
-
-    <!-- ============================= -->
-    <!-- PÁGINA DO MAPA -->
-    <!-- ============================= -->
-
     <main class="mapa-pagina">
-
-
-        <!-- TÍTULO -->
 
         <div class="mapa-titulo">
 
@@ -73,27 +32,11 @@
 
         </div>
 
-
-        <!-- ============================= -->
-        <!-- MAPA + SIDEBAR -->
-        <!-- ============================= -->
-
         <div class="mapa-container">
-
-
-            <!-- ============================= -->
-            <!-- SIDEBAR -->
-            <!-- ============================= -->
 
             <aside class="mapa-sidebar">
 
-
-                <!-- LISTA PRINCIPAL -->
-
                 <div id="lista-container">
-
-
-                    <!-- CABEÇALHO -->
 
                     <div class="sidebar-header">
 
@@ -105,9 +48,6 @@
                             Encontre o ponto mais próximo de você.
                         </p>
 
-
-                        <!-- PESQUISA -->
-
                         <div class="campo-pesquisa">
 
                             <i class="bi bi-search"></i>
@@ -115,19 +55,14 @@
                             <input
                                 type="text"
                                 id="pesquisa"
-                                placeholder="Digite uma cidade ou local..."
-                            >
+                                placeholder="Digite uma cidade ou local...">
 
                         </div>
-
-
-                        <!-- BOTÃO FILTROS -->
 
                         <button
                             id="btn-filtros"
                             class="btn-filtros"
-                            onclick="abrirFiltros()"
-                        >
+                            onclick="abrirFiltros()">
 
                             <i class="bi bi-sliders"></i>
 
@@ -137,18 +72,11 @@
 
                         </button>
 
-
                     </div>
-
-
-                    <!-- ============================= -->
-                    <!-- PAINEL DE FILTROS -->
-                    <!-- ============================= -->
 
                     <div
                         id="painel-filtros"
-                        class="painel-filtros"
-                    >
+                        class="painel-filtros">
 
                         <div class="filtro-header">
 
@@ -158,17 +86,13 @@
 
                             <button
                                 onclick="fecharFiltros()"
-                                class="btn-fechar-filtro"
-                            >
+                                class="btn-fechar-filtro">
 
                                 <i class="bi bi-x-lg"></i>
 
                             </button>
 
                         </div>
-
-
-                        <!-- TIPO -->
 
                         <div class="grupo-filtro">
 
@@ -182,33 +106,27 @@
                                 <button
                                     class="filtro-opcao ativo"
                                     data-tipo="todos"
-                                    onclick="filtrarTipo('todos')"
-                                >
+                                    onclick="filtrarTipo('todos')">
                                     Todos
                                 </button>
 
                                 <button
                                     class="filtro-opcao"
                                     data-tipo="Ecoponto"
-                                    onclick="filtrarTipo('Ecoponto')"
-                                >
+                                    onclick="filtrarTipo('Ecoponto')">
                                     Ecopontos
                                 </button>
 
                                 <button
                                     class="filtro-opcao"
                                     data-tipo="Empresa"
-                                    onclick="filtrarTipo('Empresa')"
-                                >
+                                    onclick="filtrarTipo('Empresa')">
                                     Empresas
                                 </button>
 
                             </div>
 
                         </div>
-
-
-                        <!-- MATERIAIS -->
 
                         <div class="grupo-filtro">
 
@@ -222,8 +140,7 @@
                                 <input
                                     type="checkbox"
                                     value="Celulares"
-                                    onchange="aplicarFiltros()"
-                                >
+                                    onchange="aplicarFiltros()">
 
                                 <span>
                                     Celular
@@ -231,14 +148,12 @@
 
                             </label>
 
-
                             <label class="checkbox-filtro">
 
                                 <input
                                     type="checkbox"
                                     value="Computadores"
-                                    onchange="aplicarFiltros()"
-                                >
+                                    onchange="aplicarFiltros()">
 
                                 <span>
                                     Computador
@@ -252,8 +167,7 @@
                                 <input
                                     type="checkbox"
                                     value="Televisores"
-                                    onchange="aplicarFiltros()"
-                                >
+                                    onchange="aplicarFiltros()">
 
                                 <span>
                                     Televisão
@@ -267,8 +181,7 @@
                                 <input
                                     type="checkbox"
                                     value="Pilhas"
-                                    onchange="aplicarFiltros()"
-                                >
+                                    onchange="aplicarFiltros()">
 
                                 <span>
                                     Pilhas
@@ -282,8 +195,7 @@
                                 <input
                                     type="checkbox"
                                     value="Eletrodomésticos"
-                                    onchange="aplicarFiltros()"
-                                >
+                                    onchange="aplicarFiltros()">
 
                                 <span>
                                     Eletrodomésticos
@@ -297,8 +209,7 @@
                                 <input
                                     type="checkbox"
                                     value="Cabos"
-                                    onchange="aplicarFiltros()"
-                                >
+                                    onchange="aplicarFiltros()">
 
                                 <span>
                                     Cabos
@@ -308,22 +219,15 @@
 
                         </div>
 
-
-                        <!-- LIMPAR -->
-
                         <button
                             onclick="limparFiltros()"
-                            class="btn-limpar-filtros"
-                        >
+                            class="btn-limpar-filtros">
 
                             Limpar filtros
 
                         </button>
 
                     </div>
-
-
-                    <!-- RESULTADOS -->
 
                     <div class="resultados-header">
 
@@ -333,31 +237,17 @@
 
                     </div>
 
-
-                    <!-- LISTA GERADA PELO JAVASCRIPT -->
-
                     <div id="lista-locais"></div>
-
 
                 </div>
 
-
-                <!-- ============================= -->
-                <!-- DETALHES DO LOCAL -->
-                <!-- ============================= -->
-
                 <div
                     id="detalhes-local"
-                    class="detalhes-local"
-                >
-
-
-                    <!-- VOLTAR -->
+                    class="detalhes-local">
 
                     <button
                         class="btn-voltar"
-                        onclick="voltarLista()"
-                    >
+                        onclick="voltarLista()">
 
                         <i class="bi bi-arrow-left"></i>
 
@@ -365,32 +255,19 @@
 
                     </button>
 
-
-                    <!-- ÍCONE -->
-
                     <div class="detalhe-icone">
 
                         <i class="bi bi-recycle"></i>
 
                     </div>
 
-
-                    <!-- TIPO -->
-
                     <span
                         id="tipo-local-detalhes"
-                        class="tipo-local"
-                    >
+                        class="tipo-local">
                     </span>
-
-
-                    <!-- NOME -->
 
                     <h2 id="nome-local">
                     </h2>
-
-
-                    <!-- ENDEREÇO -->
 
                     <div class="detalhe-item">
 
@@ -409,9 +286,6 @@
 
                     </div>
 
-
-                    <!-- HORÁRIO -->
-
                     <div class="detalhe-item">
 
                         <i class="bi bi-clock"></i>
@@ -429,33 +303,22 @@
 
                     </div>
 
-
-                    <!-- MATERIAIS -->
-
                     <div class="detalhe-materiais">
 
                         <h3>
                             Materiais aceitos
                         </h3>
 
-
                         <ul id="materiais-local">
                         </ul>
 
                     </div>
 
-
-                    <!-- COMO CHEGAR -->
-
                     <button
                         id="btn-como-chegar"
-                        class="btn-como-chegar"
-                    >
-
+                        class="btn-como-chegar">
                         <i class="bi bi-sign-turn-right"></i>
-
                         Como chegar
-
                     </button>
 
 
@@ -463,38 +326,21 @@
 
             </aside>
 
-
-            <!-- ============================= -->
-            <!-- MAPA -->
-            <!-- ============================= -->
-
             <div id="map"></div>
-
 
         </div>
 
     </main>
 
-
-    <!-- FOOTER -->
-
     <?php include "../includes/footer.php"; ?>
-
-
-    <!-- Leaflet -->
 
     <script
         src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
     </script>
 
-
-    <!-- JavaScript do mapa -->
-
     <script
         src="../js/mapa.js">
     </script>
 
-
 </body>
-
 </html>

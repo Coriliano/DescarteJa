@@ -30,16 +30,14 @@
                             <label>E-mail</label>
                             <input type="email"
                                    name="email"
-                                   class="form-control"
-                                   >
+                                   class="form-control">
                         </div>
 
                         <div class="mb-3">
                             <label>Senha</label>
                             <input type="password"
                                    name="senha"
-                                   class="form-control"
-                                   >
+                                   class="form-control">
                         </div>
 
                         <button type="submit"

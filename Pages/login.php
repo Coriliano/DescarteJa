@@ -35,8 +35,7 @@
         <img 
             class="logo-login" 
             src="../img/Logo DescarteJá.png" 
-            alt="Logo DescarteJá"
-        >
+            alt="Logo DescarteJá">
 
     </div>
 
@@ -56,8 +55,7 @@
             <input 
                 type="email" 
                 name="email" 
-                class="form-control"
-            >
+                class="form-control">
         </div>
 
         <div class="mb-3">
@@ -65,8 +63,7 @@
             <input 
                 type="password" 
                 name="senha" 
-                class="form-control"
-            >
+                class="form-control">
         </div>
 
         <div class="d-flex justify-content align-items-center gap-4">
@@ -84,7 +81,6 @@
     </div>
 </div>
 
-        
 <div class="text-center criar-conta">
     <a href="cadastro.php" class="btn btn-primary">
         Criar conta
@@ -103,7 +99,7 @@
     </a>
 </div>
 
-
+        </form>
     </div>
 
 </div>

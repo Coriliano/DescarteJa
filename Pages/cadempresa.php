@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +13,6 @@
 
     <link rel="stylesheet" href="../css/style.css">
 </head>
-
 <body>
 
 <form action="../Pages/login.php" method="post">
@@ -39,8 +37,7 @@
                             <label>Nome da empresa</label>
                             <input type="text"
                                    name="nome"
-                                   class="form-control"
-                                   >
+                                   class="form-control">
                         </div>
 
                         <div class="mb-3">
@@ -48,16 +45,14 @@
                             <input type="text"
                                    name="cnpj"
                                    class="form-control"
-                                   placeholder="00.000.000/0000-00"
-                                   >
+                                   placeholder="00.000.000/0000-00">
                         </div>
 
                         <div class="mb-3">
                             <label>Telefone</label>
                             <input type="text"
                                    name="telefone"
-                                   class="form-control"
-                                   >
+                                   class="form-control">
                         </div>
 
                         <div class="mb-3">
@@ -86,8 +81,7 @@
                             <input type="text"
                                    name="cep"
                                    class="form-control"
-                                   placeholder="00000-000"
-                                   >
+                                   placeholder="00000-000">
                         </div>
 
                         <div class="mb-3">
@@ -95,24 +89,21 @@
                             <input type="text"
                                    name="endereco"
                                    class="form-control"
-                                   placeholder="Rua, número, complemento"
-                                   >
+                                   placeholder="Rua, número, complemento">
                         </div>
 
                         <div class="mb-3">
                             <label>Cidade</label>
                             <input type="text"
                                    name="cidade"
-                                   class="form-control"
-                                   >
+                                   class="form-control">
                         </div>
 
                         <div class="mb-3">
                             <label>Estado</label>
                             <input type="text"
                                    name="estado"
-                                   class="form-control"
-                                   >
+                                   class="form-control">
                         </div>
 
                         <h5 class="text-start mt-4 mb-3">
@@ -135,24 +126,21 @@
                             <label>E-mail</label>
                             <input type="email"
                                    name="email"
-                                   class="form-control"
-                                   >
+                                   class="form-control">
                         </div>
 
                         <div class="mb-3">
                             <label>Senha</label>
                             <input type="password"
                                    name="senha"
-                                   class="form-control"
-                                   >
+                                   class="form-control">
                         </div>
 
                         <div class="mb-3">
                             <label>Confirmar senha</label>
                             <input type="password"
                                    name="confirmar_senha"
-                                   class="form-control"
-                                   >
+                                   class="form-control">
                         </div>
 
                         <button type="submit"
