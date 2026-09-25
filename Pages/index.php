@@ -24,7 +24,7 @@
     <div class="card">
 
         <img
-            src="../img/mapa.jpg"
+            src="../img/mapa.png"
             class="card-img-top"
             alt="Mapa">
 
@@ -72,7 +72,7 @@
     <div class="card">
 
         <img
-            src="../img/ecoponto.jpg"
+            src="../img/descarte.png"
             class="card-img-top"
             alt="Projeto DescarteJá">
 
@@ -121,7 +121,7 @@
     <div class="card">
 
         <img
-            src="../img/empresa.jpg"
+            src="../img/blog.png"
             class="card-img-top"
             alt="Blog DescarteJá">
 

@@ -64,22 +64,13 @@
                     <div class="form-check mb-3">
                         <input class="form-check-input"
                                type="checkbox"
-                               id="televisores">
+                               id="televisao">
 
-                        <label class="form-check-label" for="televisores">
-                            Televisores
+                        <label class="form-check-label" for="televisao">
+                            Televisão
                         </label>
                     </div>
 
-                    <div class="form-check mb-3">
-                        <input class="form-check-input"
-                               type="checkbox"
-                               id="monitores">
-
-                        <label class="form-check-label" for="monitores">
-                            Monitores
-                        </label>
-                    </div>
 
                 </div>
 
@@ -95,15 +86,6 @@
                         </label>
                     </div>
 
-                    <div class="form-check mb-3">
-                        <input class="form-check-input"
-                               type="checkbox"
-                               id="baterias">
-
-                        <label class="form-check-label" for="baterias">
-                            Baterias
-                        </label>
-                    </div>
 
                     <div class="form-check mb-3">
                         <input class="form-check-input"
@@ -118,12 +100,13 @@
                     <div class="form-check mb-3">
                         <input class="form-check-input"
                                type="checkbox"
-                               id="impressoras">
+                               id="eletrodomésticos">
 
-                        <label class="form-check-label" for="impressoras">
-                            Impressoras
+                        <label class="form-check-label" for="eletrodomésticos">
+                            Eletrodomésticos
                         </label>
                     </div>
+
 
                 </div>
 

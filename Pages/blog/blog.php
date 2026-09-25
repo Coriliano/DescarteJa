@@ -52,7 +52,7 @@
             <article class="blog-card">
 
                 <img
-                    src="../../img/ecoponto.jpg"
+                    src="../../img/elixo.png"
                     alt="Descarte de lixo eletrônico">
 
                 <div class="blog-card-conteudo">
@@ -85,7 +85,7 @@
             <article class="blog-card">
 
                 <img
-                    src="../../img/mapa.jpg"
+                    src="../../img/comodescartar.png"
                     alt="Descarte correto de eletrônicos">
 
                 <div class="blog-card-conteudo">
@@ -118,7 +118,7 @@
             <article class="blog-card">
 
                 <img
-                    src="../../img/empresa.jpg"
+                    src="../../img/reciclar.png"
                     alt="Reciclagem de eletrônicos">
 
                 <div class="blog-card-conteudo">
@@ -151,7 +151,7 @@
             <article class="blog-card">
 
                 <img
-                    src="../../img/ecoponto.jpg"
+                    src="../../img/celular.png"
                     alt="Celular antigo">
 
                 <div class="blog-card-conteudo">

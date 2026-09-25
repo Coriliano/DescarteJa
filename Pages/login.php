@@ -34,7 +34,7 @@
 
         <img 
             class="logo-login" 
-            src="../img/Logo DescarteJá.png" 
+            src="../img/LOGODESCARTEJA.png" 
             alt="Logo DescarteJá">
 
     </div>
@@ -68,9 +68,6 @@
 
         <div class="d-flex justify-content align-items-center gap-4">
 
-            <a href="senha.php" class="small">
-                Esqueci minha senha
-            </a>
 
             <a href="index.php" class="btn btn-success">
                 Entrar
